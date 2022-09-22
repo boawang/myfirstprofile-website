@@ -1,0 +1,254 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: Roboto, arial;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("hd.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.content {
+  border: 100px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  font-family: sans-serif, arial;
+}
+.content h1 {
+  font-family: Nanum Brush Script;
+  font-size: 60px;
+}
+.About-me-main{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 70px;
+  padding-bottom: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-me {
+  width: 100%;
+  padding-top: 100px;
+  padding-right: 0px;
+  background-color: rgb(24,24,24)
+}
+.about-me img{
+  height: auto;
+  width: 430px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(8, 143, 143);
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+
+}
+.description h3 {
+  font-size: 30px;
+  color: white;
+  font-family: Roboto;
+}
+.description h1 {
+  color: rgb(8, 143, 143);
+  font-size: 50px;
+  font-family: Nanum Brush Script;
+}
+.description p {
+  color: white;
+  font-size: 20px;
+  padding-right: 32px;
+  line-height: 20px;
+  padding-top: 20px;
+}
+.all-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(rgb(8,143,143), rgb(8,143,143) 50%, white 50%, white 100%);
+}
+.service {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service .box {
+  margin-right: 20px;
+  position: relative;
+  width: 320px;
+  background: white;
+  padding: 100px 40px 60px;
+  box-shadow: 0 10px 15px black;
+  cursor: pointer;
+}
+.service .box h2 {
+  position: absolute;
+  left: 40px;
+  top: 60px;
+  font-size: 64px;
+  font-weight: 800;
+  z-index: 1;
+  opacity: 0.5;
+}
+.service .box h3 {
+  padding-top: 17px;
+  font-family: Nanum Brush Script;
+  font-size: 30px;
+}
+.service .box p {
+  padding-top: 10px;
+}
+.box p {
+  color: black;
+}
+.button-read {
+  margin-top: 24px;
+  margin-left: 80px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 40px;
+  color: white;
+  border-width: 1px;
+  border: solid;
+  background-color: rgb(8,143,143);
+  border: 2px solid rgb(8,143,143);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.button-read:hover{
+  background-color: transparent;
+  color: rgb(8,143,143);
+}
+.contact-me {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 100px;
+  background-color: black;
+}
+
+.contact {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.contact-box {
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+
+}
+
+.contact-box h1 {
+  padding-top: 7px;
+  font-family: Nanum Brush Script;
+}
+
+.contact-box h3 {
+  font-size: 12px;
+}
+.contact-box img{
+  height: auto;
+  width: 30px;
+  cursor: pointer;
+}
+.skill-page{
+  background-color: rgb(24,24,24)
+}
+.skills{
+  margin: auto;
+  width: 1100px;
+  padding: 50px 0;
+}
+
+.skills h1 {
+  color: rgb(8,143,143);
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: Nanum Brush Script;
+}
+.contents {
+  display: flex;
+  align-items: center;
+}
+p {
+  color: white;
+  font-family: roboto, arial;
+}
+.info {
+  color: white;
+}
+.left-side {
+  width: 40%;
+}
+.left-side h1 {
+  text-align: left;
+  font-size: 30px;
+  font-family: roboto, arial;
+}
+.left-side p {
+  font-size: 18px;
+  margin: 25px 0;
+}
+.left-side a {
+  background-color: rgb(8,143,143);
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  border: 2px solid rgb(8,143,143);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  font-weight: 500;
+}
+.left-side a:hover{
+  background-color: transparent;
+  color: rgb(8,143,143);
+}
+.info {
+  margin-top: 30px;
+}
+.info span {
+  color: white;
+  font-family: roboto, arial;
+  padding-right: 210px;
+}
+.info img {
+  height: auto;
+  width: 45px;
+}
+
+.right-side {
+  flex: 1;
+  margin-bottom: 15px;
+  margin-left: 300px;
+}
+.right-side .align {
+  margin-bottom: 15px;
+}
+.right-side .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightside .info span {
+  font-weight: 500;
+  font-size: 18px;
+}
